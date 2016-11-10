@@ -1,76 +1,87 @@
-Phantom Sputnik
+# Project Title
 
-An iOS app that calculates the position of the original Sputnik satellite as if it never fell out of orbit. Functioning like a shortwave radio, the app allows users to hear the transmission of the phantom satellite’s beeping signal each time it passes overhead ( ~1000km radius). 
+One Paragraph of project description goes here
 
-Within the app, users can switch between a radio view, map view and satellite eye view. 
-The map view allows users to follow the trajectory of the satellite as it orbits the earth (current location + 200 mintues approx ~= 2 full orbit cycles). Users can usually anticipate being in close enough proximity to hear Sputnik’s transmission twice each day.)
+## Getting Started
 
-Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Download and run and install 
+### Prerequisites
 
-Prerequisites (Frameworks)
+What things you need to install the software and how to install them
 
-AudioKit 3.4 (included)
-MapKit
-CoreLocation
-Accelerate
-
+```
 Give examples
-Installing
+```
+
+### Installing
 
 A step by step series of examples that tell you have to get a development env running
 
 Say what the step will be
 
+```
 Give the example
+```
+
 And repeat
 
+```
 until finished
+```
+
 End with an example of getting some data out of the system or using it for a little demo
 
-Running the tests
+## Running the tests
 
 Explain how to run the automated tests for this system
 
-Break down into end to end tests
+### Break down into end to end tests
 
 Explain what these tests test and why
 
+```
 Give an example
-And coding style tests
+```
+
+### And coding style tests
 
 Explain what these tests test and why
 
+```
 Give an example
-Deployment
+```
+
+## Deployment
 
 Add additional notes about how to deploy this on a live system
 
-Built With
+## Built With
 
-AudioKit 3.4 http://audiokit.io
-Swift
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-Contributing
+## Contributing
 
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-Versioning
+## Versioning
 
-Authors
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
-Steven Mygind Pedersen http://stevenmygindpedersen.net/portfolio
-Bang Geul Han http://whatbunny.org
+## Authors
 
-License
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
-This project is licensed under the MIT License - see the LICENSE.md file for details
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-Acknowledgments
+## License
 
-Orbit groundtrack plot Latitude longitude lat long
-based on Richard Rieber
-https://www.mathworks.com/matlabcentral/fileexchange/13439-orbital-mechanics-library/content/Groundtrack.m'
-Inspiration
-etc
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone who's code was used
+* Inspiration
+* etc
