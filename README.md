@@ -27,6 +27,7 @@ Xcode, iOS Developer license
 
 * **Steven Mygind Pedersen** http://stevenmygindpedersen.net/portfolio
 * **Bang Geul Han** http://whatbunny.org
+* **Nicklas Keynon** - initial research
 
 See also the list of [contributors](https://github.com/banggeul/phantom-sputnik/contributors) who participated in this project.
 
