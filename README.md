@@ -40,8 +40,10 @@ Please read [CONTRIBUTING.md]for details on our code of conduct, and the process
 
 ## Authors
 
-* Steven Mygind Pedersen http://stevenmygindpedersen.net/portfolio
-* Bang Geul Han http://whatbunny.org
+* **Steven Mygind Pedersen** http://stevenmygindpedersen.net/portfolio
+* **Bang Geul Han** http://whatbunny.org
+
+See also the list of [contributors](https://github.com/banggeul/phantom-sputnik/contributors) who participated in this project.
 
 ## License
 
