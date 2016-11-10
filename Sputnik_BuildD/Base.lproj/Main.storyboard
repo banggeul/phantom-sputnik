@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Mih-tG-RVH">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="FPY-P4-Vjs">
+            <objects>
+                <viewController id="Mih-tG-RVH" customClass="ViewController" customModule="Sputnik_BuildD_temp_caseinsensitive_rename" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eBa-7z-LkR"/>
+                        <viewControllerLayoutGuide type="bottom" id="z6U-eh-cla"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="G4D-iT-Xfx">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wQ4-4J-mdU">
+                                <rect key="frame" x="632" y="39" width="15" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="3ui-2x-CMx"/>
+                                    <constraint firstAttribute="width" constant="15" id="VBv-S9-uxW"/>
+                                </constraints>
+                                <state key="normal" title="GroundTrack" image="map_marker">
+                                    <color key="titleColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="K0w-Po-7r3" kind="presentation" identifier="GroundTrack" modalTransitionStyle="flipHorizontal" id="4Ce-v3-OQR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fox-Vh-ymG">
+                                <rect key="frame" x="624" y="323" width="30" height="32"/>
+                                <fontDescription key="fontDescription" name="Georgia-BoldItalic" family="Georgia" pointSize="17"/>
+                                <state key="normal" title="i">
+                                    <color key="titleColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tWw-vo-9sX" kind="presentation" identifier="about" modalTransitionStyle="coverVertical" id="hTk-Fo-ZTk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UdV-M6-wXH">
+                                <rect key="frame" x="20" y="39" width="25" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="Kce-0l-doy"/>
+                                    <constraint firstAttribute="height" constant="15" id="qEs-8C-1jX"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="eye"/>
+                                <connections>
+                                    <segue destination="c8T-Y9-aUr" kind="presentation" identifier="SatMap" modalTransitionStyle="flipHorizontal" id="U5c-pV-4cN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="fox-Vh-ymG" secondAttribute="trailing" constant="-7" id="4nL-Ji-Qvx"/>
+                            <constraint firstItem="wQ4-4J-mdU" firstAttribute="top" secondItem="eBa-7z-LkR" secondAttribute="bottom" constant="19" id="A9B-fv-7kC"/>
+                            <constraint firstItem="UdV-M6-wXH" firstAttribute="top" secondItem="eBa-7z-LkR" secondAttribute="bottom" constant="19" id="H9o-nU-dif"/>
+                            <constraint firstItem="UdV-M6-wXH" firstAttribute="leading" secondItem="G4D-iT-Xfx" secondAttribute="leadingMargin" id="aLK-ro-4n7"/>
+                            <constraint firstItem="wQ4-4J-mdU" firstAttribute="trailing" secondItem="G4D-iT-Xfx" secondAttribute="trailingMargin" id="y6T-K8-cHf"/>
+                            <constraint firstItem="z6U-eh-cla" firstAttribute="top" secondItem="fox-Vh-ymG" secondAttribute="bottom" constant="20" id="yUa-8O-D84"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="flh-7m-imU" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51" y="-394"/>
+        </scene>
+        <!--Sat View Controller-->
+        <scene sceneID="SRB-uj-XK3">
+            <objects>
+                <viewController id="c8T-Y9-aUr" customClass="SatViewController" customModule="Sputnik_BuildD_temp_caseinsensitive_rename" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Clc-aw-ZAL"/>
+                        <viewControllerLayoutGuide type="bottom" id="pJE-ae-EFE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ofw-Ss-f7q">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R3b-0k-SQV">
+                                <rect key="frame" x="0.0" y="20" width="30" height="33"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="18"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismiss" destination="K0w-Po-7r3" eventType="touchUpInside" id="Cwo-HK-mfD"/>
+                                    <action selector="dismiss" destination="c8T-Y9-aUr" eventType="touchUpInside" id="r0K-eD-qLG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="R3b-0k-SQV" firstAttribute="top" secondItem="Clc-aw-ZAL" secondAttribute="bottom" id="3lY-pG-qrR"/>
+                            <constraint firstItem="R3b-0k-SQV" firstAttribute="leading" secondItem="ofw-Ss-f7q" secondAttribute="leading" id="Au8-yn-H6r"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="PJg-jI-Rx7"/>
+                    <connections>
+                        <outlet property="dismissButton" destination="R3b-0k-SQV" id="qfE-vP-utw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7LD-We-TG3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-511.39430284857576" y="501.60000000000002"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="9Q7-kI-cG4">
+            <objects>
+                <viewController id="K0w-Po-7r3" customClass="SecondViewController" customModule="Sputnik_BuildD_temp_caseinsensitive_rename" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XPO-Oy-N6r"/>
+                        <viewControllerLayoutGuide type="bottom" id="Sfn-zQ-iin"/>
+                    </layoutGuides>
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="5rZ-Gf-exR">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map_view_2" translatesAutoresizingMaskIntoConstraints="NO" id="wH7-fG-OFG">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BoL-uR-har" customClass="MeView" customModule="Sputnik_BuildD_temp_caseinsensitive_rename" customModuleProvider="target">
+                                <rect key="frame" x="100" y="100" width="12" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="map_marker"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RGt-dH-11n" customClass="CenterView" customModule="Sputnik_BuildD_temp_caseinsensitive_rename" customModuleProvider="target">
+                                <rect key="frame" x="318.5" y="140" width="30" height="30"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pTl-bS-1em">
+                                <rect key="frame" x="0.0" y="20" width="30" height="33"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="18"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismiss" destination="K0w-Po-7r3" eventType="touchUpInside" id="mO2-vR-SM8"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jVh-CQ-0aQ">
+                                <rect key="frame" x="213" y="123" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="RGt-dH-11n" firstAttribute="centerX" secondItem="wH7-fG-OFG" secondAttribute="centerX" constant="-0.5" id="0RA-g9-PPv"/>
+                            <constraint firstItem="wH7-fG-OFG" firstAttribute="top" secondItem="5rZ-Gf-exR" secondAttribute="top" id="4Cg-Af-pw7"/>
+                            <constraint firstAttribute="trailing" secondItem="wH7-fG-OFG" secondAttribute="trailing" id="831-xA-SZd"/>
+                            <constraint firstItem="pTl-bS-1em" firstAttribute="top" secondItem="XPO-Oy-N6r" secondAttribute="bottom" id="HrD-dE-ycI"/>
+                            <constraint firstItem="RGt-dH-11n" firstAttribute="centerY" secondItem="wH7-fG-OFG" secondAttribute="centerY" constant="-32.5" id="QK6-UP-mN7"/>
+                            <constraint firstAttribute="bottom" secondItem="wH7-fG-OFG" secondAttribute="bottom" id="TbC-cJ-0ar"/>
+                            <constraint firstItem="wH7-fG-OFG" firstAttribute="leading" secondItem="5rZ-Gf-exR" secondAttribute="leading" id="YRE-Ch-8d7"/>
+                            <constraint firstItem="pTl-bS-1em" firstAttribute="leading" secondItem="5rZ-Gf-exR" secondAttribute="leadingMargin" constant="-20" id="vXA-z3-qfq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="equatorView" destination="RGt-dH-11n" id="QBG-Fi-cSh"/>
+                        <outlet property="mapView" destination="wH7-fG-OFG" id="owi-bP-duD"/>
+                        <outlet property="meView" destination="BoL-uR-har" id="6kH-qi-4iW"/>
+                        <outlet property="sputnikAnimView" destination="jVh-CQ-0aQ" id="Icn-0D-ljZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bG0-Nc-hfa" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="503"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="ggh-s8-hxw">
+            <objects>
+                <viewController id="tWw-vo-9sX" customClass="AboutViewController" customModule="Sputnik_BuildD_temp_caseinsensitive_rename" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rpD-qJ-u6A"/>
+                        <viewControllerLayoutGuide type="bottom" id="9IR-rZ-ZT0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ukU-0P-qso">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2nI-2W-0mO">
+                                <rect key="frame" x="198.5" y="70.5" width="270" height="234"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="234" id="S2c-lC-5Bf"/>
+                                    <constraint firstAttribute="width" constant="270" id="myd-Dy-18g"/>
+                                </constraints>
+                                <string key="text">Phantom Sputnik is an art project created by Steven Mygind Pedersen and Bang Geul Han. You can tune in to Sputnik 1 (the first satellite by USSR launched in 1957) to hear its broadcast when it flies over your location as if it never fell out of the orbit. </string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" red="1" green="0.82197779957260653" blue="0.34679571784998542" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CHv-c4-E78">
+                                <rect key="frame" x="198.5" y="257" width="270" height="55"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nTR-yW-ol4">
+                                <rect key="frame" x="0.0" y="20" width="30" height="33"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="18"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismiss" destination="tWw-vo-9sX" eventType="touchUpInside" id="tkz-nN-fXQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9IR-rZ-ZT0" firstAttribute="top" secondItem="CHv-c4-E78" secondAttribute="bottom" constant="63" id="0Eb-dH-NE7"/>
+                            <constraint firstItem="2nI-2W-0mO" firstAttribute="centerX" secondItem="ukU-0P-qso" secondAttribute="centerX" id="95M-wR-0Sz"/>
+                            <constraint firstItem="2nI-2W-0mO" firstAttribute="centerY" secondItem="ukU-0P-qso" secondAttribute="centerY" id="FXv-kb-gnv"/>
+                            <constraint firstItem="nTR-yW-ol4" firstAttribute="top" secondItem="rpD-qJ-u6A" secondAttribute="bottom" id="Jcc-eK-qVM"/>
+                            <constraint firstItem="CHv-c4-E78" firstAttribute="top" secondItem="rpD-qJ-u6A" secondAttribute="bottom" constant="237" id="ZCG-jC-Ti9"/>
+                            <constraint firstItem="nTR-yW-ol4" firstAttribute="leading" secondItem="ukU-0P-qso" secondAttribute="leadingMargin" constant="-20" id="kSW-uX-5GF"/>
+                            <constraint firstItem="CHv-c4-E78" firstAttribute="leading" secondItem="2nI-2W-0mO" secondAttribute="leading" id="mqc-yg-6c3"/>
+                            <constraint firstItem="CHv-c4-E78" firstAttribute="trailing" secondItem="2nI-2W-0mO" secondAttribute="trailing" id="si1-Wd-aoC"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iom-1e-xkd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="770" y="95"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="eye" width="480" height="280"/>
+        <image name="map_marker" width="302" height="491"/>
+        <image name="map_view_2" width="667" height="375"/>
+    </resources>
+</document>
