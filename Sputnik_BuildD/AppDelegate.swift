@@ -1,10 +1,10 @@
 //
 //  AppDelegate.swift
-//  LandscapeController_Swift
+//  
+//  Sputnik_BuildD
 //
-//  Created by olxios on 20/06/16.
-//  Copyright © 2016 olxios. All rights reserved.
-//
+//  Created by Mini Panton on 11/7/16.
+//  Copyright © 2016 Some Feelers. All rights reserved.
 
 import UIKit
 

@@ -1,10 +1,10 @@
 //
 //  ViewController.swift
-//  LandscapeController_Swift
 //
-//  Created by olxios on 20/06/16.
-//  Copyright © 2016 olxios. All rights reserved.
+//  Sputnik_BuildD
 //
+//  Created by Mini Panton on 11/7/16.
+//  Copyright © 2016 Some Feelers. All rights reserved.
 
 import UIKit
 import CoreLocation

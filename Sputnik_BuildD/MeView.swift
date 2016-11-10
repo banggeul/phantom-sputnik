@@ -1,9 +1,7 @@
 //
 //  MeView.swift
-//  LandscapeController_Swift
 //
 //  Created by Mini Panton on 9/4/16.
-//  Copyright © 2016 Olga Dalton. All rights reserved.
 //
 
 import UIKit

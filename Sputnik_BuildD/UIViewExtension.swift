@@ -1,10 +1,12 @@
 //
 //  UIViewExtension.swift
-//  LandscapeController_Swift
 //
 //  Created by Mini Panton on 9/4/16.
-//  Copyright © 2016 Olga Dalton. All rights reserved.
 //
+//  Sputnik_BuildD
+//
+//  Created by Mini Panton on 11/7/16.
+//  Copyright © 2016 Some Feelers. All rights reserved.
 
 import UIKit
 
